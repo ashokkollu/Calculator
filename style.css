@@ -68,9 +68,29 @@ button:active {
     background-color: #ff7aa2;
 }
 
+.ac{
+    grid-column: span 2;
+    background-color: #ff7a94;
+    color: white;
+}
+.ac:hover{
+    background-color: #f54c6d;
+}
+
+
+.del{
+    background-color: #70b9f6;
+    color: white;
+}
+.del:hover{
+    background-color:  #55adf5;
+    color: white;
+}
+
 .equal {
     background-color: #94d2bd;
     color: white;
+    grid-column: span 2;
 }
 
 .equal:hover {
